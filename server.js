@@ -42,5 +42,5 @@ mongoose.connect(
   }
 ).then(()=>console.log("MongoDB Connected Succssfully...!")).catch((err)=>console.log(err));
 
-const port = 1000;
+const port = 3000;
 app.listen(port,()=>console.log(`Server is running on port ${port}`))
